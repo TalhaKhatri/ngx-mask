@@ -51,9 +51,9 @@ $ npm install --save ngx-mask
 Import **ngx-mask** module in Angular app.
 
 ```typescript
-import {NgxMaskModule} from 'ngx-mask'
+import { NgxMaskModule, IConfig } from 'ngx-mask'
 
-export const options: Partial<IConfig> | (() => Partial<IConfig>);
+export let options: Partial<IConfig> | (() => Partial<IConfig>);
 
 @NgModule({
   (...)
